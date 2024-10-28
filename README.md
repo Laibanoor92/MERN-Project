@@ -1,18 +1,33 @@
-# Setting Up the MERN Booking App
+# Hotel Booking MERN App
 
-This guide will walk you through the process of setting up the MERN Booking App on your local machine.
+## Summary
 
-## Prerequisites
+The MernHolidays.com is a full-stack application that allows users to search for hotels, explore their services, and book accommodations directly. Built using the MERN stack (MongoDB, Express.js, React, Node.js), this application provides a user-friendly interface for managing hotel bookings efficiently.
+
+## Technologies Used
+
+- **MongoDB**: NoSQL database for storing hotel and booking information.
+- **Express.js**: Web application framework for Node.js, used to build the backend API.
+- **React**: Frontend library for building interactive user interfaces.
+- **Node.js**: JavaScript runtime for executing server-side code.
+- **Cloudinary**: Service for managing images and media.
+- **Stripe**: Payment processing platform for secure transactions.
+
+## Setting Up the Hotel Booking MERN App
+
+This guide will walk you through the process of setting up the Hotel Booking MERN App on your local machine.
+
+### Prerequisites
 
 Before you begin, ensure you have Node.js installed on your system.
 
-## Cloning the Repository
+### Cloning the Repository
 
 Start by cloning the repository to your local machine:
 
 ```bash
-git clone https://github.com/chrisblakely01/mern-booking-app.git
-cd mern-booking-app
+git clone https://github.com/Laibanoor92/MERN-Project.git
+cd Mern-Project
 ```
 
 ## Backend Configuration
@@ -119,3 +134,10 @@ cd mern-booking-app
     - [Using the Playwright extension to run the tests](https://playwright.dev/docs/getting-started-vscode#running-tests)
 
 
+## Application Screenshots
+
+![Create Account Page](Screenshots/Screenshot1.png)
+![Sign in Page](Screenshots/Screenshot2.png)
+![Hotel Listing Page](Screenshots/Screenshot3.png)
+![Hotel description Page](Screenshots/Screenshot4.png)
+![Your Bookings Page](Screenshots/Screenshot5.png)
